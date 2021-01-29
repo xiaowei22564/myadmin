@@ -67,6 +67,11 @@ export default {
                     title: '用户模块'
                 },
                 {
+                    icon: 'el-icon-heavy-rain',
+                    index: 'weather',
+                    title: '天气查询'
+                },
+                {
                     icon: 'el-icon-lx-cascades',
                     index: '2',
                     title: '性能分析',
@@ -75,8 +80,8 @@ export default {
                             index: 'vmstat',
                             title: 'vm命令数据'
                         },{
-                            index: 'weather',
-                            title: '天气查询'
+                            index: 'result',
+                            title: '性能结果'
                         }
                     ]
                 }

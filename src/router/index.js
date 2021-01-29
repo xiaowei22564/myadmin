@@ -41,6 +41,11 @@ export default new Router({
                     meta: { title: 'vm命令数据' }
                 },
                 {
+                    path: '/result',
+                    component: () => import(/* webpackChunkName: "vmstat" */ '../components/page/result.vue'),
+                    meta: { title: '性能结果' }
+                },
+                {
                     path: '/tabs',
                     component: () => import(/* webpackChunkName: "tabs" */ '../components/page/Tabs.vue'),
                     meta: { title: '消息中心' }
