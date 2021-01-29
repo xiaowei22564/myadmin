@@ -21,9 +21,9 @@
         <el-input v-model="linuxdata.pass"></el-input>
         </el-form-item>
 
-        <el-form-item label="执行命令" prop="cmd" style="width: 50%;">
+        <!-- <el-form-item label="执行命令" prop="cmd" style="width: 50%;">
         <el-input v-model="linuxdata.cmd"></el-input>
-        </el-form-item>
+        </el-form-item> -->
 
         </el-form>
         <div slot="footer" class="dialog-footer">
